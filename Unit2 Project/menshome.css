@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'PT Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'PT Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+
+.slide-container{
+    position:relative;
+    width: 100%;
+}
+.slide img{
+    width: 90% ;
+    height: 400px;
+    padding-left: 5%;
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: black;
+    background-color: aliceblue;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.next{
+    right: 0px;
+}
+.prev{
+    left: 0px;
+}
+.slide{
+    display: none;
+}
+#para{
+    width: 95%;
+    height: 200px;
+    display: flex;
+   margin-top:15px;
+   margin-left: 25px;
+   
+}
+.tt{
+    height: 100%;
+    width:16%;
+    margin-left: 20px;
+}
+.tt img{
+    height: 100%;
+    width: 100%;
+}
+#hgi p{
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: 47px;
+}
+.hr{
+    margin-top: 50px;
+    width: 95%;
+    
+}
+.aa{
+     height: 120px;
+     width: 95%;
+     margin: auto;
+     margin-top: 75px;
+}
+.aa img{
+    height: 100%;
+    width: 100%;
+}
+.bb{
+    height: 200px;
+    width: 95%;
+    margin: auto;
+    margin-top: 75px;
+}
+.bb img{
+    height: 100%;
+    width: 100%;
+}
+.tt div{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+#para1{
+    width: 95%;
+    height: 200px;
+    display: flex;
+   margin-top:40px;
+   margin-left: 25px;
+}
+.dd{
+    height: 400px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+   
+}
+.ee{
+    height: 100%;
+    width: 33%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.ee img{
+    width: 100%;
+    height: 100%;
+}
+#hgk p{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 47px;
+}
+#para2{
+    height: 310px;
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+}
+.ff{
+    height: 100%;
+    width:19%;
+    margin-left:10px;
+}
+.ff img{
+     width: 100%;
+     height: 79%;
+}
+.ff .abc{
+    font-size:15px;
+    margin-top: 20px;
+}
+.ff .abcd{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.ff .ccd{
+     margin-top:10px;
+}

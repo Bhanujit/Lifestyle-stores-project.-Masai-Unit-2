@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'PT Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'PT Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+.extraspace{
+    height: 9.5em;
+    width: 100%;
+}
+.home_container{
+    display: flex;
+    height: 600px;
+    width: 85%;
+    margin: 0px auto;
+
+}
+.home_container > div{
+    height: 100%;
+    width: 25%;
+}
+.home_btn{
+    margin:140% auto;
+    height: 70px;
+    width: 85%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.Yellow{
+    color: goldenrod;
+    text-decoration: none;
+}

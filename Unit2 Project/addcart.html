@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <body style="background-color: white;">
+        <div class="nav_container">
+            <div class="small_nav">
+                <div class="left">
+                    <div class="box1_logo">
+                       <img src="navbar.icon\busicon.png" class="small_img">
+                        <a href="#" >Free Delivery</a>
+                    </div>
+                    <div class="box1_logo">
+                        <img src="navbar.icon\shopicon.png" class="small_img">
+                        <a href="#"> Click & Collect</a>
+                    </div>
+                    <div class="box1_logo">
+                        <img src="navbar.icon\shopicon.png" class="small_img">
+                        <a href="#"> Return to store</a>
+                    </div>
+                </div>
+    
+    
+                <div class="right">
+                    <div class="">
+                        Download Our Apps
+                    </div>
+                    <span>|</span>
+                    <div class="">Store Locator</div>
+                    <span>|</span>
+                    <div class="">Help</div>
+                </div>
+            </div>
+    
+    
+    
+    
+            <div class="Main_nav">
+                <div class="logo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqxFwMFh9OFMcb9gLsrR7N2oJqC3qDtb0yuskD0le8lfPnxJvOquY8dTlUWcWx66rRwPw&usqp=CAU" alt="" class="main_logo">
+                
+                </div>
+                <div class="Nav_section_left">
+                    <div><a href="womenhome.html" class="hover_1">Women</a></div>
+                    <div><a href="menshome.html" class="hover_1">Men</a></div>
+                    <div><a href="#">Kids</a></div>
+                    <div style="width: 34%;"><a href="#">Shoes & Bags</a></div>
+                </div>
+                <div class="searchbox">
+                   <div> 
+                       <img src="navbar.icon\searchicon.png" class="search_logo" alt="">
+                       <input type="search" placeholder="What are you looking for?" id="Search_box"></div>
+                </div>
+                <div class="sign_up_section">
+                    <div> <a href="enternumber.html" id="sign_up">Sign Up - Sign In</a></div>
+                    <span>|</span>
+                    <div id="Navbasket"> <a href="addcart.html"> <h4>Basket</h4> </a>
+                    <div>
+                        <img src="navbar.icon\bagicon.png" class="small_logo">
+                    </div> </div>
+                </div>
+            </div>
+            <div class="third_Nav">
+                <div><a href="men.html" class="Navitems" id="Nav_topWear">Mens Wear</a></div>
+                <div><a href="women.html" class="Navitems">Womens wear</a></div>
+                <div><a href="men.html" class="Navitems">Mens Tops</a></div>
+                <div><a href="women.html" class="Navitems">Womens Tops</a></div>
+            </div>
+    
+        </div>
+    
+        <div class="extraspace"></div>
+      <div id="main1"> 
+          
+           </div> <!--end main1 div-->
+    <!--**********************for table**********************************************************-->
+    <div id="main2">
+        <p id="offer">OFFER! Apply 'MASAI30' and Get Upto 30% Instant Discount </p>
+    <div id="crtdiv">
+        <h2></h2>
+    </div>
+    <div id="crttable">
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th class="a101">Description</th>
+                    <th class="a102">Price</th>
+                    <th class="a103"></th>
+                    <th class="a104">Total Price</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    </div> <!---end main2 div-->
+        <!----------------------------- for cart------------------------------------------------------>
+    <div id="main3">
+        <div id="container">
+    
+            
+        </div> <!-- container div end-->
+        <div class="cart">
+            <div class="1">
+                <h4 class="same-phont">Items</h4>
+                <h4 id="num" class="same-phont"></h4>
+            </div>
+            <div class="2">
+                <h4 class="same-phont">Total</h4>
+                <h4 id="total" class="same-phont"></h4>
+            </div>
+            <form id="myform">
+                <input type="text" id="inp" placeholder="Enter Proma Code">
+                <input type="submit" value="Apply" id="inpsub">
+     </form>
+         <div class="2">
+             <h4 class="same-phont" id="pay">Amount Payable</h4>
+              <h4 id="amt" class="same-phont"></h4>
+     </div> 
+            <button onclick="window.location.href = 'payment.html'"> Check Out</button>
+    
+        </div>
+        </div> <!------main3 div end-->
+    
+        <script src="cart.js"></script>
+</body>
+</html>

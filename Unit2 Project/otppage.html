@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #container{
+            height: 430px;
+            width: 42%;
+            margin: 200px auto;
+            border: 1px solid;
+            padding: 60px;
+            border-radius: 5px;
+        }
+        #user{
+            width: 92%;
+            height: 50px;
+            margin-bottom: 17px;
+        }
+        #container > div{
+            margin: 10px 0px;
+        }
+        .otp-flex{
+            display: flex;
+            width: 90%;
+            height: 80px;
+            justify-content: space-between;
+            align-items: center;
+        } 
+        .otp-flex > input{
+            width: 100%;
+            height: 70%;
+        }
+        .heading_p{
+            font-size: 35px;
+            font-weight: 400;
+            margin-bottom: 13px;
+        }
+        .grey_text{
+            color: gray;
+            font-size: 15px;
+        }
+        form > p{
+            margin: 10px 0px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        form > div{
+            font-size: 15px;
+            margin: 13px 0px;
+        }
+        .another_a{
+            text-decoration: none;
+            color: goldenrod;
+
+        }
+        .submit_btn{
+            height: 50px;
+            width: 50%;
+            background-color: goldenrod;
+            border: none;
+            margin-left:  50%;
+        }
+       
+
+        </style>
+</head>
+<body>
+    <div id="container">
+        <div class="heading">
+            <p class="heading_p">Sign Up or Sign In</p>
+            <p class="grey_text">Enjoy the convenience of a single account across all participating brands</p>
+        </div>
+        
+        <div>
+            <form>
+                <p>Verify With OTP</p>
+                <div class="otp-flex">
+                   <input type="number" class="otp" placeholder="Enter OTP here">
+                </div>
+                <div>By creating your account you agree to our <a href="#" class="another_a">Terms & conditions</a></div>
+                
+                  <div> <a class="another_a" href="#">Didn't get it? Resend Code</a></div>
+                    <input class ="submit_btn" type="submit" value="Continue">
+                
+                
+            </form>
+
+        </div>
+    </div>
+
+    <script>
+        document.querySelector("form").addEventListener("submit", proceed);
+
+        function proceed(event){
+         event.preventDefault();
+        var otp = document.querySelector(".otp").value;
+         console.log(otp);
+        if(otp.length===0 ){
+        alert("Incorrect OTP");
+        }else{
+        document.querySelector(".submit_btn").addEventListener("click",function(){
+            window.location= "signup.html"
+        })
+        }
+}
+    
+    
+    
+    
+    </script>
+</body>
+</html>

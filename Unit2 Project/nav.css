@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'PT Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'PT Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav_container{
+    height: 9.5em;
+    width: 100%;
+    display:  grid;
+    grid-template-rows: 25% 45% 30% ;
+    position:sticky;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    /* font-family: 'PT Mono', monospace;
+    font-family: 'Ubuntu', sans-serif; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav_container > div{
+    display: flex;
+}
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] */
+.small_nav{
+   display: flex;
+   justify-content: space-between;
+}
+.small_nav > div{
+    
+    height: 100%;
+    width: 30%;
+    margin-left: 6%;
+  
+}
+.left{
+    display: flex;
+}
+.box1_logo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 35%;
+    margin: 0px 2%;
+    
+}
+.box1_logo> a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 8%;
+    font-size: 13px;
+    font-weight: bold;
+}
+.small_nav{
+    background-color: black;
+    color: whitesmoke;
+}
+.small_img{
+    height: 25px;
+    width: 25px;
+    filter: invert(100%);        
+}
+
+.right{
+    margin-right: 7%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.right > div{
+    font-size: 13px;
+    margin: 0px 2%;
+    font-weight: bold;
+}
+/* -----------------------------------2nd nav -------------------------------------------------------------------- */
+.Main_nav{
+    background-color: white;
+    width: 100%;
+    height: px;
+}
+.logo{
+    height: 100%;
+    width: 10%;
+    margin-left: 5%;
+}
+.main_logo{
+    height: 100%;
+    width: 100%;
+}
+.Nav_section_left{
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+.Nav_section_left > div{
+    height: 100%;
+    width: 22%;
+}
+.Nav_section_left > div > a{ 
+   text-decoration: none;
+   font-size: 13.5px;
+   color: black;
+   font-weight: bold;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.hover_1:hover{
+    background-color: whitesmoke;
+    color: goldenrod;
+}
+.searchbox{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;   
+}
+.searchbox> div{
+    height: 60%;
+    width:100%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+.search_logo{
+    margin: 0px 2%;
+    height: 20px;
+    width: 20px;
+    filter: invert(60%);
+}
+.searchbox > div > input {
+    
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    font-size: 13px;
+}
+
+
+.sign_up_section{
+    display: flex;
+    height: 100%;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    font-size: 13.5px;
+    font-weight: bolder;
+}
+.sign_up_section > div{
+    margin: 0px 2%;
+}
+#Navbasket{
+    display: flex;
+    align-items: center;
+    margin: 3%;
+}
+#Navbasket > a{
+    color: black;
+    text-decoration: none;
+}
+.small_logo{
+    height: 21px;
+    width: 21px;
+    margin-left: 15%;
+}
+#sign_up{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#sign_up:hover{
+    color: goldenrod;
+}
+/* ________________________________________________________________3rd Nav_________________________________________________________________ */
+
+.third_Nav{
+    padding-left: 7%;
+    border-bottom: 1px solid gray;
+    background-color: white;
+}
+
+.third_Nav > div{
+   height: 100%; 
+   width: 4% auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0px 1%;
+} 
+.Navitems{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    color: black;
+    text-decoration: none;
+    font-size: 13.5px;
+    font-weight: 600;
+    height: 100%;
+    width: 100%;
+    
+}
+.Navitems:hover{
+    border-bottom: 2px solid goldenrod;
+}
+
+
+
+.extraspace{
+    height: 9.5em;
+    width: 100%;
+}

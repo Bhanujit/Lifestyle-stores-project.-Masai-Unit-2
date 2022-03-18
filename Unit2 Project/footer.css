@@ -1,0 +1,177 @@
+.footer-first-box {
+    height: auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 100px;
+    /* margin: auto; */
+    /* justify-content: center; */
+
+
+}
+
+.footer-second-box {
+    height: auto;
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+
+
+}
+
+li {
+    list-style: none;
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'Barlow', sans-serif;
+    /* line-gap-override: 5px; */
+}
+
+li>a {
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+
+}
+
+.imgage-Icon {
+    height: 35px;
+    width: 35px;
+    padding-left:15px;
+    padding-top: 15px;
+
+
+}
+footer{
+    margin-top: 50px;
+    padding: 40px;
+}
+
+.image-icons {
+    border: 1px solid rgb(158, 156, 156);
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.footer-items {
+    /* margin: auto; */
+    /* margin: auto; */
+    margin-left: 30px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+.social-icons {
+    margin-left: 240px;
+}
+
+.footer-contact-details {
+    height: 90px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-gap: 0px; */
+    font-family: 'Barlow', sans-serif;
+}
+
+.footer-para {
+
+    margin: 0px;
+    padding-top: -20px;
+}
+
+.one {
+    margin-bottom: 2px;
+    color: grey;
+}
+
+.footer-crpt {
+    display: flex;
+    height: 100px;
+    width: 30%;
+    /* justify-content: calc(); */
+
+}
+
+.image-lifestyle {
+    height: 80px;
+    width: 100px;
+}
+
+.footerprgph {
+    margin-left: 20px;
+    color: rgb(163, 162, 162);
+    font-family: 'Barlow', sans-serif;
+}
+
+hr {
+    height: -20px;
+    background-color: rgb(218, 214, 214);
+}
+
+.subscription {
+    border: 1px solid grey;
+    height: 250px;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+
+}
+/* *************************************** */
+.subparel{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+
+}
+.sub1{
+    margin-left: 30px;
+}
+.email-connect{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#email100{
+    height: 55px;
+    width: 300px;
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    font-size: 17px;
+    
+}
+#btn100{
+    height: 56px;
+    width: 150px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+#playstr{
+    height: 90px;
+    width: 200px;
+}
+.playstore-link{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100px;
+    width: 100%;
+    /* grid-gap: 150px; */
+}
+.apple-link{
+    margin: 20px;
+    margin-left: 20px;
+}
