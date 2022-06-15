@@ -3,9 +3,9 @@ LifeStyleStore is one of the popular E comercer sites out there. Here as we were
 
 ## Authors
 
-- [Abhinandan Shaan]()
-- [Anurag Verma ]()
-- [Sharan ]()
+- Abhinandan Shaan
+- Anurag Verma
+- Sharan
 
 ## Color Reference
 
