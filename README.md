@@ -3,9 +3,9 @@ LifeStyleStore is one of the popular E comercer sites out there. Here as we were
 
 ## Authors
 
-- [Ayushi Jain](https://github.com/ayushi8855)
-- [Shiva ](https://github.com/sivagurubilli)
-- [Santosh](https://github.com/Santhosh-user)
+- [Abhinandan Shaan]()
+- [Anurag Verma ]()
+- [Sharan ]()
 
 ## Color Reference
 
